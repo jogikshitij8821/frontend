@@ -1,0 +1,16 @@
+.head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px;
+  background-color: #5bc4ca;
+  color: #1a181a;
+}
+
+.head h1 {
+  margin: 0;
+}
+
+.head button {
+  margin-left: 10px;
+}

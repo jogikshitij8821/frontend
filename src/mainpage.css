@@ -1,0 +1,22 @@
+.sidemainclass{
+  display: grid;
+  grid-template-columns: repeat(10, 1fr); 
+ background-color: wheat;
+}
+/* .side2{
+  grid-column: span 2; 
+  background-color: rgb(16, 6, 6); 
+  height: 100vh; 
+  padding-left: 2px;
+  border: 2px solid rgb(238, 235, 232);
+
+} */
+.side3{
+  grid-column: span 8; 
+    /* background-color:aqua; */
+    height: 100vh; 
+    padding-left: 2px;
+    
+}
+ 
+

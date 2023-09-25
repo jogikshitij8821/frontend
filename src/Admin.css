@@ -1,0 +1,50 @@
+/* App.css or your custom CSS file */
+
+/* Styling for the admin container */
+.admin-container {
+  background-color: #f0f0f0; /* Background color for the container */
+  padding: 20px;
+  border: 1px solid #ddd; /* Border for the container */
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Shadow effect */
+  max-width: 400px; /* Adjust the maximum width as needed */
+  margin: 0 auto; /* Center the container horizontally */
+}
+
+/* Styling for the form inside the admin container */
+.admin-form {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Styling for the form labels */
+.admin-form label {
+  margin-bottom: 10px;
+}
+
+/* Styling for the input fields */
+.input-border {
+  border: 1px solid #ccc; /* Border for the input fields */
+  padding: 5px;
+  border-radius: 5px;
+  width: 100%; /* Take up the full width of the container */
+}
+
+/* Styling for the submit button */
+.admin-form button[type="submit"] {
+  background-color: #007bff; /* Button background color */
+  color: #fff; /* Button text color */
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+/* Styling for the submit button on hover */
+.admin-form button[type="submit"]:hover {
+  background-color: #0056b3; /* Button background color on hover */
+}
+
+/* Additional styling or adjustments as needed */

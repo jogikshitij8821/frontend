@@ -1,0 +1,124 @@
+App.css
+.login-container {
+  background: linear-gradient(135deg, #FF6B6B, #6B47FF);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  color: #fff;
+  /* Text color on the background */
+  perspective: 1000px;
+  /* Adding 3D perspective to the container */
+}
+
+.login-form {
+  background-color: rgba(255, 255, 255, 0.9);
+  /* Semi-transparent background for the form */
+  padding: 20px;
+  border-radius: 10px;
+  width: 300px;
+  text-align: center;
+  transform: rotateY(10deg);
+  /* Adding a slight 3D rotation effect */
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+  /* Adding a shadow for depth */
+}
+
+.login-input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border:black;
+  border-radius: 7px;
+}
+
+.login-button {
+  background: linear-gradient(135deg, #6B47FF, #FF6B6B);
+  /* Colorful gradient for the button */
+  color: #11120d;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.login-button:hover {
+  background: linear-gradient(135deg, #FF6B6B, #6B47FF);
+  /* Hover gradient for the button */
+}
+
+.error-message {
+  color: #d80e0e;
+  /* Error message color */
+  margin-top: 10px;
+  font-weight: bold;
+  font-family: monospace;
+}
+
+/* CSS for Home component */
+.head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px;
+  background-color: #5bc4ca;
+  color: #1a181a;
+}
+
+.head h1 {
+  margin: 0;
+}
+
+.head button {
+  margin-left: 10px;
+}
+
+/* blog */
+
+
+/* Blog card container */
+.blog-card {
+  border: 1px solid #110f0f;
+  padding: 30px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  background-color: #424141;
+  box-shadow: 0 6px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Blog title */
+.blog-title {
+  font-size: 1.5rem;
+  margin-bottom: 5px;
+}
+
+/* Blog description */
+/* Blog card container */
+.blog-card {
+  background: linear-gradient(135deg, #6ca6fe, #f38cd9);
+  padding: 20px;
+  margin: auto;
+  max-width: 800px;
+  border-radius: 10px;
+  box-shadow: 6px 2px 4px rgba(72, 51, 51, 0.1);
+  text-align: center;
+  position: relative;
+  height: 100%;
+}
+
+/* Blog title */
+.blog-title {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+/* Blog description */
+.blog-description {
+  font-size: 1rem;
+  color: #666;
+  margin-bottom: 20px;
+}

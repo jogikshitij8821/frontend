@@ -1,0 +1,41 @@
+/* navbar.css or your custom CSS file */
+
+/* Styling for the container of the Navbar */
+.home-container {
+  background-color: #09384e; /* Background color for the container */
+  padding: 10px;
+  margin: 10px 10px 10px 25px;
+  border-radius: 25px;
+}
+
+/* Styling for the navigation bar */
+.head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+/* Styling for the welcome message */
+.home-heading-style {
+  color: #fff; /* Text color for the welcome message */
+}
+
+/* Styling for the Logout button */
+.button-css {
+  /*background-color: #cb5418; /* Button background color */
+  color: #fff; /* Button text color */
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+/* Styling for the Logout button on hover */
+.button-css:hover {
+  background-color: whitesmoke; /* Button background color on hover */
+}
+
+/* Additional styling or adjustments based on your design requirements */
