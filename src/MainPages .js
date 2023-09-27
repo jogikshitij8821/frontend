@@ -3,8 +3,9 @@ import { Outlet } from 'react-router-dom';
 import Navbar from './Navbar';
 import Sidebar from './Sidebar ';
 import Navpage from './Navpage';
-//import Blog from './BlogList';
+import Blog from './BlogList';
 import './mainpage.css';
+import Blog from './BlogList';
 
 const MainPages = ({onLogout}) => {
   return (
@@ -19,6 +20,9 @@ const MainPages = ({onLogout}) => {
         <div className='side2'>
           <Sidebar />
          
+        </div>
+        <div>
+          <Blog/>
         </div>
 
         {/* Outlet for child routes */}

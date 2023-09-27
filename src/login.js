@@ -82,7 +82,7 @@ function Login(props) {
 
   const handleGoogleLogin = ()=>{
     window.location.href = 'https://backend-x9r5.onrender.com/auth/google';
-  }
+  } 
 
 
 //   const handleGitHubLogin = () => {
