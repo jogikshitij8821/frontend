@@ -10,9 +10,10 @@ import './mainpage.css';
 const MainPages = ({onLogout}) => {
   return (
     <div>
+     <div className='nav'>
       {/* Navbar component */}
       <Navbar onLogout={onLogout} />
-
+      </div>
 
       {/* Main content layout */}
       <div className='sidemainclass'>
