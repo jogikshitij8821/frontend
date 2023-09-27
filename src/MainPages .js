@@ -5,7 +5,7 @@ import Sidebar from './Sidebar ';
 import Navpage from './Navpage';
 //import Blog from './BlogList';
 import './mainpage.css';
-import Blog from './BlogList';
+
 
 const MainPages = ({onLogout}) => {
   return (
