@@ -1,10 +1,10 @@
 import React from "react";
   import {Routes,Route} from "react-router-dom";
   import Admin from "./AdminDashboard";
-  // import Home from "../pages/home";
+  
   import Blog from "./BlogList";
-  // import Signup from "../pages/Signup";
-  // import MainPages from "./MainPage";
+  
+  
 
 
   const Navpage=()=>{
