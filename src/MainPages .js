@@ -21,9 +21,7 @@ const MainPages = ({onLogout}) => {
           <Sidebar />
          
         </div>
-        <div>
-          <Blog/>
-        </div>
+        
 
         {/* Outlet for child routes */}
         <div className='side3'>

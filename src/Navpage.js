@@ -12,8 +12,9 @@ import React from "react";
           <>
           <section>
             <Routes>
-            {/* <Route path="/"  element={<Home/>}/>   */}
-            <Route path="/admin"  element={<Admin/>}/>  
+             <Route path="/"  element={<Home/>}/>   
+             
+           <Route path="/admin"  element={<Admin/>}/>  
             <Route path="/blog" element={<Blog/>}/>  
             {/* <Route path="/Signup" element={<Signup/>}/>  */}
             {/* <Route path="/mainpage" element={<MainPages/>}/> */}
